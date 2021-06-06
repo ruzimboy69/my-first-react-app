@@ -1,0 +1,105 @@
+.sidebar{
+    min-height: 100vh;
+
+}
+.left-site{
+    min-height: 100vh;
+    position: fixed;
+    width: 25%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    transition: 0.5s linear;
+}
+.right-site{
+    width: 75%;
+    height: 100vh;
+    margin-left: 25%;
+    transition: 0.5s linear;
+}
+.openRight-site{
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    transition: 0.5s linear;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    cursor: pointer;
+}
+.closeLeft-site{
+    min-height: 100vh;
+    position: fixed;
+    width: 0;
+    box-shadow: none;
+    transition: 0.5s linear;
+}
+ul{
+    padding-left: 0;
+}
+
+ul li{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    margin-left: 60px;
+
+}
+ul li a{
+    font-size: 17px;
+    color:#d2d2d2;
+
+}
+ul li a:hover{
+    color: #2f2f2f;
+    text-decoration: none;
+}
+ul li a i:hover{
+    color: #0fbf0f;
+}
+.nav-item{
+    width: 50%;
+    margin:0;
+    text-align: center;
+    display: block;
+    background-color: #eae4e4;
+}
+.nav-item:hover{
+    border-bottom: #0fbf0f !important;
+}
+.nav-tabs{
+    padding: 0;
+    border: none !important;
+
+}
+.nav-link{
+    padding:10px 0;
+    border: none !important;
+}
+.round{
+    width: 50px;
+    height: 50px;
+}
+.spanFont{
+    font-size: 12px;
+}
+.cardHover:hover{
+    background-color: #28a745;
+    color:#fff;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardHover:hover h5{
+    color:#fff !important;
+}
+/*.btn-info{*/
+/*    width: 100px !important;*/
+/*    font-size: 20px;*/
+/*}*/
+/*.progress-bar{*/
+/*    background-color: blue;*/
+/*}*/
+/*.pl-5 {*/
+/*    padding-left: 60px;*/
+/*}*/
